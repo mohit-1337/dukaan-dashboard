@@ -18,7 +18,7 @@ import walletIcon from "../assets/walletIcon.svg";
 const Sidebar = () => {
   return (
     <>
-      <div className="w-72 bg-[#1E2640] h-screen py-4 px-4 overflow-auto">
+      <div className="w-72 bg-[#1E2640] h-screen py-4 px-4 overflow-auto justify-between">
         <div className="flex w-full  justify-between items-center">
           <div className="flex w-full gap-5">
             <img src={logo} alt="logo" className="cursor-pointer" />
