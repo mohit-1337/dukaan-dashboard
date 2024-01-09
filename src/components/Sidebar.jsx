@@ -90,9 +90,11 @@ const Sidebar = () => {
             </div>
           </div>
         </div>
-        <div className="flex text-white  bg-white/10 mt-[82px]">
-          <div className="flex gap-3 px-3">
+        <div className="flex text-white  bg-white/10 mt-[82px] rounded-md p-2">
+          <div className="flex gap-3 px-3 items-center">
+            <div className="bg-white/10 items-center p-2 rounded-md">
             <img src={walletIcon} alt="walletIcon" />
+            </div>
             <div className="flex flex-col">
               <span className="text-[13px] opacity-70">Available credits</span>
               <span>222.10</span>

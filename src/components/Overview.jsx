@@ -39,10 +39,10 @@ const Overview = () => {
           <div className="gap-2 w-full">
             <div className="gap-3 flex justify-end">
               <div className="w-10 h-10 bg-[#E6E6E6] rounded-full flex justify-center cursor-pointer">
-                <img src={chatIcon} width={20} height={20} alt="chatIcon" />
+                <img src={chatIcon} width={20} height={20} alt="chatIcon" className="p-1"/>
               </div>
               <div className="w-10 h-10 bg-[#E6E6E6] rounded-full flex justify-center cursor-pointer">
-                <img src={moreIcon} width={20} height={20} alt="moreIcon" />
+                <img src={moreIcon} width={20} height={20} alt="moreIcon" className="p-1"/>
               </div>
             </div>
           </div>
