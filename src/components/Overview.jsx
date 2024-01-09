@@ -10,6 +10,8 @@ import ibuttonIcon from "../assets/ibuttonIcon.svg";
 import Order from "./Order";
 import leftarrowIcon from "../assets/leftarrowIcon.svg";
 import rightArrowIcon from "../assets/rightArrowIcon.svg";
+import orderdateIcon from "../assets/orderdateIcon.svg";
+
 
 const Overview = () => {
   return (
@@ -117,7 +119,7 @@ const Overview = () => {
                       </span>
                       <div className="flex gap-2 items-center  w-full justify-start">
                         <span>Order date</span>
-                        <img src={bottomArrowIcon} alt="bottomArrowIcon" />
+                        <img src={orderdateIcon} alt="orderdateIcon" />
                       </div>
                       <span className="w-full justify-end flex">
                         Order amount
