@@ -25,8 +25,8 @@ const Sidebar = () => {
 
             <div className="text-white">
               <h1 className="text-[16px]">Nishyan</h1>
-              <span className="underline cursor-pointer text-[13px]">
-                Visit store{" "}
+              <span className="underline cursor-pointer text-[13px] text-white/10">
+                Visit store
               </span>
             </div>
           </div>
